@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About SQLite</title>
+    <link rel="icon" href="profile-pic (5).png" type="image/jpg">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="navbar"></div>
+        <div class="container">
+            <img src="sqlite370_banner.gif" alt="">
+            <p>Small. Fast. Reliable. <br>
+                Choose any three.
+                </p>
+                <nav class="nav-elements">
+                      <ul class="nav-contents">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">License</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Purchase</a></li>
+                        <li class="Right"><a href="#">Search</a></li>
+                      </ul>
+                </nav>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="content">
+            <h1>About SQLite</h1>
+            <div class="right-table">
+                <h4>Executive summary</h4>
+                <ul>
+                    <li><a href="#">Full-featured SQL</a></li>
+                    <li><a href="#">Billions and billions of deployments</a></li>
+                    <li><a href="#">Single-file database</a></li>
+                    <li><a href="#">Public domain source code</a></li>
+                    <li>All source code in one file (<a href="#">sqlite3.c</a>) </li>
+                    <li>Small footprint</li>
+                    <li>Max DB size: <a href="#">281 terabytes</a> (248 bytes)</li>
+                    <li>Max row size: <a href="#">1 gigabyte</a></li>
+                    <li><a href="#">Faster than direct file I/O</a></li>
+                    <li><a href="#">Aviation-grade quality and testing</a></li>
+                    <li><a href="#">Zero-configuration</a></li>
+                    <li><a href="#">ACID transactions, even after power loss</a></li>
+                    <li><a href="#">Stable, enduring file format</a></li>
+                    <li><a href="#">Extensive, detailed documentation</a></li>
+                    <li><a href="#">Long-term support</a></li>
+                </ul>
+            </div>
+            <p>
+                SQLite is an in-process library that implements a <a href="#">self-contained</a>, <a href="#">serverless</a>, <a href="#">zero-configuration</a>, <a href="#">transactional</a> SQL database engine. The code for SQLite is in the <a href="#">public domain</a> and is thus free for use for any purpose, commercial or private. SQLite is the <a href="#">most widely deployed</a> database in the world with more applications than we can count, including several <a href="#">high-profile projects.</a>
+            </p>
+            <p>
+                SQLite is an embedded SQL database engine.
+                Unlike most other SQL databases, SQLite does not have a separate
+                server process.  SQLite reads and writes directly to ordinary disk
+                files.  A complete SQL database with multiple tables, indices,
+                triggers, and views, is contained in a single disk file.
+                The database <a href="#">file format</a> is cross-platform - you can freely copy a database
+                between 32-bit and 64-bit systems or between 
+                <a href="#">big-endian</a> and
+                <a href="#">little-endian</a>
+                architectures.  These features make SQLite a popular choice as
+                an <a href="#">Application File Format</a>.  SQLite database files are a
+                <a href="#">recommended storage format</a> by the US Library of Congress.
+                Think of SQLite not as a replacement for 
+                <a href="#">Oracle</a> but
+                as a replacement for <a href="#">fopen()</a>
+            </p>
+            <p>
+                SQLite is a compact library, With all features enabled, the <a href="#">library size</a> can be less than 750KiB,
+                depending on the target platform and compiler optimization settings.
+                (64-bit code is larger.  And some compiler optimizations
+                such as aggressive function inlining and loop unrolling can cause the
+                object code to be much larger.)
+                There is a tradeoff between memory usage and speed.  
+                SQLite generally runs faster the more memory
+                you give it.  Nevertheless, performance is usually quite good even
+                in low-memory environments.  Depending on how it is used, SQLite can be
+                <a href="#">faster than direct filesystem I/O</a>.
+            </p>
+            <p>
+                SQLite is 
+                <a href="#">very carefully tested</a> prior to every
+                release and has a reputation for being very reliable.
+                Most of the SQLite source code is devoted purely to testing and
+                verification.  An automated test suite runs millions and millions of
+                test cases involving hundreds of millions of individual SQL statements
+                and achieves <a href="#">100% branch test coverage</a>.  
+                SQLite responds gracefully to memory
+                allocation failures and disk I/O errors.  Transactions are
+                <a href="#">ACID</a>
+                even if interrupted by system crashes or power failures.  
+                All of this is verified by
+                the automated tests using special test harnesses which simulate 
+                system failures.
+                Of course, even with all this testing, there are still bugs.
+                But unlike some similar projects (especially commercial competitors)
+                SQLite is open and honest about all bugs and provides
+                <a href="#">bugs lists</a> and
+                minute-by-minute <a href="#">
+                chronologies</a> of code changes.
+            </p>
+                <p>
+                    The SQLite code base is supported by an
+                    <a href="#">international team</a> of developers who work on
+                    SQLite full-time.
+                    The developers continue to expand the capabilities of SQLite
+                    and enhance its reliability and performance while maintaining
+                    backwards compatibility with the 
+                    <a href="#">published interface spec</a>,
+                    <a href="#">SQL syntax</a>, and database <a href="#">file format</a>.
+                    The source code is absolutely free to anybody who wants it,
+                    but <a href="#">professional support</a> is also available.
+                </p>
+                <p>
+                    The SQLite project was started on 
+                    <a href="#">2000-05-09</a>.
+                    The future is always hard to predict, but the intent of the developers
+                    is to support SQLite through the year 2050.  Design decisions are made
+                    with that objective in mind.
+                </p>
+                <p>
+                    We the developers hope that you find SQLite useful and we
+                    entreat you to use it well: to make good and beautiful products that
+                    are fast, reliable, and simple to use.  Seek forgiveness for yourself
+                    as you forgive others.  And just as you have received SQLite for free,
+                    so also freely give, paying the debt forward.
+                </p>
+                
+        </div>
+    </section>
+    <footer class="center-content">
+        <p>
+            <small><i>This page last modified on  
+                <a href="https://sqlite.org/docsrc/finfo/pages/about.in?m=6e29fa3e37" id="mtimelink" data-href="https://sqlite.org/docsrc/finfo/pages/about.in?m=6e29fa3e37">2023-10-10 17:29:48</a> 
+                UTC </i></small> 
+        </p>
+    </footer>
+</body>
+</html>
